@@ -40,3 +40,29 @@ npm install --save-dev @types/passport-local \
   @types/bcrypt
   
 ```
+```md
+src/
+├── config/
+│   ├── configuration.ts
+│   ├── validation.schema.ts
+│   └── environments/
+│       ├── development.env
+│       ├── production.env
+│       └── staging.env
+├── modules/
+│   ├── auth/
+│   ├── users/
+│   ├── products/
+│   └── orders/
+├── shared/
+│   ├── dtos/
+│   ├── interfaces/
+│   ├── constants/
+│   ├── utils/
+│   └── prisma/
+│       ├── prisma.service.ts
+│       └── prisma.module.ts
+└── tests/
+    ├── e2e/
+    └── unit/
+```
