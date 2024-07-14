@@ -8,8 +8,7 @@ nest new project-name
 
 # SETUP
 ```sh
-npm i @vinejs/vine  \ 
-  @nestjs/config  \
+npm i @nestjs/config  \
   @nestjs/typeorm \
   typeorm \
   mysql2\
@@ -33,6 +32,7 @@ npm i @vinejs/vine  \
   passport-local \
   passport-jwt \
   @nestjs/jwt \
+  zod \
   @nestjs/terminus;
 ```
 ```
