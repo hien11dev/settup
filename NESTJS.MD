@@ -1,5 +1,4 @@
-# \
-Installation
+# Installation
 
 ```sh
 npm i -g @nestjs/cli
@@ -32,7 +31,7 @@ npm i @nestjs/config  \
   passport-local \
   passport-jwt \
   @nestjs/jwt \
-  zod \
+  joi \
   @nestjs/terminus;
 ```
 ```
