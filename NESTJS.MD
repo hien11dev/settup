@@ -59,9 +59,6 @@ src/
 │   ├── interfaces/
 │   ├── constants/
 │   ├── utils/
-│   └── prisma/
-│       ├── prisma.service.ts
-│       └── prisma.module.ts
 └── tests/
     ├── e2e/
     └── unit/
